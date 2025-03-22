@@ -6,12 +6,18 @@
     <meta name="description" content="Hazem Ibrahim Aly's Professional Dev Portfolio">
     <meta name="author" content="Hazem Ibrahim Aly">
     <title>Hazem's Portfolio</title>
+	<!-- Lightbox2 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <link rel="shortcut icon" type="assets/imgs/man.png" href="assets/imgs/man.png"/>
     <!-- Bootstrap + Meyawo main styles -->
 	<link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
+	<!-- Lightbox2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
     <!-- Page Navbar -->
@@ -89,66 +95,87 @@
             <p class="section-subtitle">What I Did?</p>
             <h2 class="section-title mb-3">Portfolio</h2>
         </div>
-        <!-- folio section -->
+
+
+<!-- folio section -->
 <section class="section" id="portfolio">
-    <!-- container -->
     <div class="container text-center">
-        <!-- folio header -->
         <div class="experience-header">
             <p class="section-subtitle">What I Did?</p>
             <h2 class="section-title mb-3">Portfolio</h2>
         </div>
-        <!-- portfolio content -->
+
         <div class="experience-content">
             <div class="experience-block">
                 <div class="experience-details">
                     <ul class="project-list">
 
-                        <!-- University Portal -->
+                        <!-- 1. University Portal -->
                         <h4><b>University Portal – React & Django API</b></h4>
                         <p>Developed a full-stack university portal for staff to manage degrees, cohorts, modules, students, and grades. Used React for the frontend and Django REST Framework for the API. Focused on clean design, API integration, and CRUD functionality.</p>
-                        <img src="assets/imgs/university-portal-1.jpg" class="project-img" alt="University Portal Screenshot 1" style="width:220px; height:200px;">
-                        <img src="assets/imgs/university-portal-2.jpg" class="project-img" alt="University Portal Screenshot 2" style="width:220px; height:200px;">
+                        <a href="assets/imgs/university-portal-1.jpg" data-lightbox="university">
+                            <img src="assets/imgs/university-portal-1.jpg" class="project-img" alt="University Portal 1" style="width:220px; height:200px;">
+                        </a>
+                        <a href="assets/imgs/university-portal-2.jpg" data-lightbox="university">
+                            <img src="assets/imgs/university-portal-2.jpg" class="project-img" alt="University Portal 2" style="width:220px; height:200px;">
+                        </a>
 
                         <br><br><br>
 
-                        <!-- Pizza Delivery App -->
+                        <!-- 2. Pizza Delivery App -->
                         <h4><b>Pizza Delivery App – Django Full Stack</b></h4>
                         <p>Built a fully functional web app using Django, Bootstrap, JS, HTML, and CSS. Users can customize pizza orders, track deliveries in real-time, and process payments. Enhanced the UI for seamless navigation and an intuitive experience.</p>
-                        <img src="assets/imgs/pizza-app-1.jpg" class="project-img" alt="Pizza App Screenshot 1" style="width:220px; height:200px;">
-                        <img src="assets/imgs/pizza-app-2.jpg" class="project-img" alt="Pizza App Screenshot 2" style="width:220px; height:200px;">
+                        <a href="assets/imgs/pizza-app-1.jpg" data-lightbox="pizza">
+                            <img src="assets/imgs/pizza-app-1.jpg" class="project-img" alt="Pizza App 1" style="width:220px; height:200px;">
+                        </a>
+                        <a href="assets/imgs/pizza-app-2.jpg" data-lightbox="pizza">
+                            <img src="assets/imgs/pizza-app-2.jpg" class="project-img" alt="Pizza App 2" style="width:220px; height:200px;">
+                        </a>
 
                         <br><br><br>
 
-                        <!-- Cultural Insights App -->
-                        <h4><b>Cultural Insights Web Application</b></h4>
-                        <p>Led a team in creating an interactive web app exploring cultures across Europe, Africa, and Asia. Prioritized UI/UX to make content engaging, accessible, and educational for a global audience.</p>
-                        <img src="assets/imgs/culture-app-1.jpg" class="project-img" alt="Cultural App Screenshot 1" style="width:220px; height:200px;">
-                        <img src="assets/imgs/culture-app-2.jpg" class="project-img" alt="Cultural App Screenshot 2" style="width:220px; height:200px;">
-
-                        <br><br><br>
-
-                        <!-- Bank of Ireland SRS -->
+                        <!-- 3. Bank of Ireland SRS -->
                         <h4><b>Software Requirements Specification – Bank of Ireland App</b></h4>
                         <p>Led a systems analysis project to design a secure, scalable banking app. Delivered detailed use cases, domain models, and workflow diagrams, focusing on improving user experience, security, and system reliability.</p>
-                        <img src="assets/imgs/boi-app-1.jpg" class="project-img" alt="Bank of Ireland Screenshot 1" style="width:220px; height:200px;">
-                        <img src="assets/imgs/boi-app-2.jpg" class="project-img" alt="Bank of Ireland Screenshot 2" style="width:220px; height:200px;">
+                        <a href="assets/imgs/boi-app-1.jpg" data-lightbox="boi">
+                            <img src="assets/imgs/boi-app-1.jpg" class="project-img" alt="BOI App 1" style="width:220px; height:200px;">
+                        </a>
+                        <a href="assets/imgs/boi-app-2.jpg" data-lightbox="boi">
+                            <img src="assets/imgs/boi-app-2.jpg" class="project-img" alt="BOI App 2" style="width:220px; height:200px;">
+                        </a>
 
                         <br><br><br>
 
-                        <!-- EpicEarn.quest -->
+                        <!-- 4. Cultural Insights App -->
+                        <h4><b>Cultural Insights Web Application</b></h4>
+                        <p>Led a team in creating an interactive web app exploring cultures across Europe, Africa, and Asia. Prioritized UI/UX to make content engaging, accessible, and educational for a global audience.</p>
+                        <a href="assets/imgs/culture-app-1.jpg" data-lightbox="culture">
+                            <img src="assets/imgs/culture-app-1.jpg" class="project-img" alt="Culture App 1" style="width:220px; height:200px;">
+                        </a>
+                        <a href="assets/imgs/culture-app-2.jpg" data-lightbox="culture">
+                            <img src="assets/imgs/culture-app-2.jpg" class="project-img" alt="Culture App 2" style="width:220px; height:200px;">
+                        </a>
+
+                        <br><br><br>
+
+                        <!-- 5. EpicEarn.quest -->
                         <h4><b>Developer - EpicEarn.quest Reward Site (Renovating)</b></h4>
                         <p>EpicEarn.quest is a website designed to offer free rewards to users who engage in activities such as completing surveys, watching ads, or installing apps. The platform provides an incentive-based system to encourage user participation and interaction.</p>
-                        <img src="assets/imgs/epicearn-1.jpg" class="project-img" alt="EpicEarn Screenshot 1" style="width:220px; height:200px;">
-                        <img src="assets/imgs/epicearn-2.jpg" class="project-img" alt="EpicEarn Screenshot 2" style="width:220px; height:200px;">
+                        <a href="assets/imgs/epicearn-1.jpg" data-lightbox="epicearn">
+                            <img src="assets/imgs/epicearn-1.jpg" class="project-img" alt="EpicEarn 1" style="width:220px; height:200px;">
+                        </a>
+                        <a href="assets/imgs/epicearn-2.jpg" data-lightbox="epicearn">
+                            <img src="assets/imgs/epicearn-2.jpg" class="project-img" alt="EpicEarn 2" style="width:220px; height:200px;">
+                        </a>
 
                     </ul>
                 </div>
-            </div><!-- end of portfolio block -->
-        </div><!-- end of portfolio content -->
-    </div><!-- end of container -->
-</section> <!-- end of portfolio section -->
+            </div>
+        </div>
+    </div>
+</section>
 
+	    
  <!-- exp section -->
  <section class="section" id="experience">
     <!-- container -->
